@@ -16,4 +16,5 @@ $config = $config."_config";
 $config = new $config();
 include_once "core/core.php";
 $core = new core($config);
+$core->load_controller();
 ?>
